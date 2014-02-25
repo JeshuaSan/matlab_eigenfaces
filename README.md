@@ -1,7 +1,6 @@
-<html><head>
-      
+<html><head></head>
 
-  </style></head><body><div class="content"><h1>Detecci&oacute;n de caras por medio del An&aacute;lisis por Componentes Principales (PCA)</h1>
+<body><div class="content"><h1>Detecci&oacute;n de caras por medio del An&aacute;lisis por Componentes Principales (PCA)</h1>
 
  <h2>Contenido</h2>
   <div>
@@ -21,7 +20,7 @@
   clear <span class="string">all</span>;
 </pre><h2>Imagenes de entrenamiento<a name="2"></a></h2><pre class="codeinput">Im=[];
 <span class="keyword">for</span> i=1:38
-    str=strcat(<span class="string">'YaleCropped/yale_'</span>,int2str(i),<span class="string">'.pgm'</span>);
+    str=strcat(<span class="string">'../YaleCropped/yale_'</span>,int2str(i),<span class="string">'.pgm'</span>);
     eval(<span class="string">'img=im2double(imread(str));'</span>);
     Im(:,:,i)=img;
 <span class="keyword">end</span>
