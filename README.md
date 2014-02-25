@@ -126,9 +126,4 @@ caraEncontrada.LineWidth = 2;
 
 patch(caraEncontrada);
 </pre><img vspace="5" hspace="5" src="script/html/Eigenfaces_escala_02.png" alt=""> <p class="footer"><br>
-      Published with MATLAB&reg; 7.11<br></p></div><!--
-##### SOURCE BEGIN #####
-%% Detección de caras por medio del Análisis por Componentes Principales (PCA)
-
-
---></body></html>
+</body></html>
