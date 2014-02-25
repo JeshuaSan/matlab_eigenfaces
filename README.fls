@@ -1,8 +1,0 @@
-PWD /Users/jesus/Documents/Github/Personal/eigenfaces
-INPUT /usr/local/texlive/2013/texmf.cnf
-INPUT /usr/local/texlive/2013/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2013/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jesus/Documents/Github/Personal/eigenfaces/README.md
-OUTPUT /Users/jesus/Documents/Github/Personal/eigenfaces/README.log
-OUTPUT /Users/jesus/Documents/Github/Personal/eigenfaces/README.pdf
-INPUT /usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map
