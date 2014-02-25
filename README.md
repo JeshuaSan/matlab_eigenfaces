@@ -71,7 +71,7 @@ N = tamano(1);
 M = tamano(2);
 </pre><h2>Cara Promedio<a name="18"></a></h2><pre class="codeinput">figure(1)
 imshow(avFace,<span class="string">'InitialMagnification'</span>,900)
-</pre><img vspace="5" hspace="5" src="Eigenfaces_escala_01.png" alt=""> <h2>Imagen de prueba<a name="19"></a></h2><p>Anteriormente se cargaron varias im&aacute;genes de prueba, para mostrar el funcionamiento de este programa se elige una imagen de prueba de la cual se obtuvo uno de los valores de escala, por ejemplo la imagen n&uacute;mero 16</p><pre class="codeinput">imagen = 16;
+</pre><img vspace="5" hspace="5" src="script/html/Eigenfaces_escala_01.png" alt=""> <h2>Imagen de prueba<a name="19"></a></h2><p>Anteriormente se cargaron varias im&aacute;genes de prueba, para mostrar el funcionamiento de este programa se elige una imagen de prueba de la cual se obtuvo uno de los valores de escala, por ejemplo la imagen n&uacute;mero 16</p><pre class="codeinput">imagen = 16;
 </pre><p>Se obtienen (N-J)*(M-I) segmentos de la imagen original de tama&ntilde;o J x I, donde: [N x M] es el tama&ntilde;o de la imagen de prueba  y [J x I] es el tama&ntilde;o de las imagenes de entrenamiento. Es decir, para esta escala en particular se obtuvieron 33*55 = 1815 im&aacute;genes cada una de tama&ntilde;o 25x22</p><pre class="codeinput">Im_p_R = [];
 tic;    <span class="comment">% Inicia el reloj</span>
 i=1;
