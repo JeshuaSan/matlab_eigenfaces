@@ -1,11 +1,24 @@
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html><head>
       
 
-  </style></head><body><div class="content"><h1>Detecci&oacute;n de caras por medio del An&aacute;lisis por Componentes Principales (PCA)</h1><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#2">Imagenes de entrenamiento</a></li><li><a href="#5">Imagenes de prueba</a></li><li><a href="#8">Imagenes Escaladas</a></li><li><a href="#13">An&aacute;lisis por Componentes Principales</a></li><li><a href="#18">Cara Promedio</a></li><li><a href="#19">Imagen de prueba</a></li><li><a href="#23">Error m&iacute;nimo</a></li><li><a href="#31">Recuadro</a></li></ul></div><pre class="codeinput">clc
-clear <span class="string">all</span>;
+  </style></head><body><div class="content"><h1>Detecci&oacute;n de caras por medio del An&aacute;lisis por Componentes Principales (PCA)</h1>
+
+ <h2>Contenido</h2>
+  <div>
+    <ul>
+      <li><a href="#2">Imagenes de entrenamiento</a></li>
+      <li><a href="#5">Imagenes de prueba</a></li>
+      <li><a href="#8">Imagenes Escaladas</a></li>
+      <li><a href="#13">An&aacute;lisis por Componentes Principales</a></li>
+      <li><a href="#18">Cara Promedio</a></li>
+      <li><a href="#19">Imagen de prueba</a></li>
+      <li><a href="#23">Error m&iacute;nimo</a></li>
+      <li><a href="#31">Recuadro</a></li>
+    </ul>
+  </div>
+  <pre class="codeinput">
+  clc
+  clear <span class="string">all</span>;
 </pre><h2>Imagenes de entrenamiento<a name="2"></a></h2><pre class="codeinput">Im=[];
 <span class="keyword">for</span> i=1:38
     str=strcat(<span class="string">'YaleCropped/yale_'</span>,int2str(i),<span class="string">'.pgm'</span>);
